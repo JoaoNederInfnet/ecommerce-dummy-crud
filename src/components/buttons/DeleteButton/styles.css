@@ -1,0 +1,16 @@
+.deleteButton button
+{
+ min-width:  fit-content;
+ min-height: fit-content;
+ height: 25px;
+ width: 25px;
+ color: red;
+ border: solid 3px red;
+ margin: 5px;
+ cursor:pointer ;
+}
+
+.deleteButton button:hover
+{
+ background-color: var(--terciary-color);
+}

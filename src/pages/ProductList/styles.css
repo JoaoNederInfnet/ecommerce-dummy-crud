@@ -1,0 +1,56 @@
+.productList {
+  position: relative;
+  height: 100vh;
+}
+
+.productList h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.containerProducts {
+  padding: 16px;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+
+.productList .titleButtonContainer
+{
+ display: flex;
+ flex-direction: row;
+}
+
+.productCard {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  transition: 0.3s ease all;
+  text-align: center;
+}
+
+.productCard:hover {
+  background-color: #386054;
+  color: black;
+}
+
+.productCard p:first-child {
+  font-size: 1.0rem;
+  font-weight: 600;
+}
+
+.productCard p:last-child {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.productCard img {
+  width: 105px;
+}
+

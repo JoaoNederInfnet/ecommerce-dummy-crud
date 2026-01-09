@@ -1,0 +1,75 @@
+.productForm
+{
+ box-sizing: border-box;
+ width: 100%;
+ padding: 10px;
+ background-color: var(--terciary-color);
+ box-shadow: var(--box-shadow);
+}
+
+.productForm div
+{
+ width: 100%;
+ padding: 5px; 
+ gap: 10px;
+ font-size: 15px;
+}
+
+.productForm .reactQuill
+{
+ background-color: white;
+ color: black;
+ border: 3px solid var(--primary-color);
+ border-radius: 4px;
+}
+
+.productForm input
+ {
+  background-color: rgb(242, 241, 241);
+  border: none;
+  border-radius: 4px;
+  border: 3px solid var(--primary-color);
+  height: 35px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+ .productForm .column
+ {
+  display: flex;
+ }
+
+ .productForm .validationErrorMessage {
+  color: red;
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.productForm .button
+ {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .productForm button
+ {
+  width: 60px;
+  height: auto;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;  
+  border: 3px solid var(--secondary-color);
+  cursor: pointer;
+  border-radius: 4px;
+ }
+
+  .productForm button:hover
+ {
+  background-color: var(--terciary-color);
+  color: white;
+ }

@@ -1,0 +1,29 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root 
+{
+  --font-name: 'Rochester', cursive;
+  --font-text: 'Ga Maamli', sans-serif;
+  --primary-color: rgb(25, 192, 134);
+  --secondary-color: rgba(189, 16, 237, 0.747);
+  --terciary-color: #386054;
+  --text-shadow: 2px 2px  var(--secondary-color); 
+  --box-shadow: var(--secondary-color) 1px 1px 2px 0px,
+    var(--primary-color) 0px 2px 6px 2px;
+}
+
+body
+{
+ background-color: black;
+ color: white;
+}
+
+.app .content
+{
+ margin: 10px;
+}
